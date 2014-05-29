@@ -1,5 +1,6 @@
 require 'chef/provider/lwrp_base'
 require 'shellwords'
+require_relative 'helpers'
 
 include Opscode::Mysql::Helpers
 
